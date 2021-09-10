@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+}
+
+h5, .main__titulo, .main__equipamiento__titulo .main__equipamiento__texto__parrafo .main__equipamiento__texto__titulo {
+  padding: 1% 1% 0% 1%;
+}
+
+@media (max-width: 991.98px) {
+  .card {
+    margin: 20%;
+  }
+}
+
+.main__titulo, .main__equipamiento__titulo .main__equipamiento__texto__parrafo .main__equipamiento__texto__titulo {
+  margin-bottom: 1%;
+}
+
+.main__equipamiento__texto__parrafo .main__equipamiento__texto__titulo {
+  margin-left: 1%;
+}
