@@ -1,12 +1,22 @@
-a{
-    text-decoration: none;
-}
-h5{
-    padding: 1% 1% 0% 1%;
+body{
+    height: 100vh;
+    a{
+        text-decoration: none;
+    }
+    h5{
+        padding: 1% 1% 0% 1%;
+    }
+    h1{
+        margin: 0% 2% 0% 1%;
+        padding-bottom: 0.5%;
+    }
 }
 @media (max-width: 991.98px) { 
     .card{
         margin: 20%;
+    }
+    .widget_soundcloud{
+        height: 400px
     }
 }
 

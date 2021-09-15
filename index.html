@@ -15,8 +15,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-opacity-75">
             <div class="container-fluid">
-                
                 <a class="navbar-brand" href="#"><img src="css/icono.png" alt=""></a>
+                <h1 class="text-warning">Colo Music</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -38,9 +38,9 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Redes Sociales</a>   
                             <ul class="dropdown-menu z-index-1" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="https://instagram.com">Instagram</a></li>
-                            <li><a class="dropdown-item" href="https://facebook.com">Facebook</a></li>
-                            <li><a class="dropdown-item" href="https://twitter.com">Twitter</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="https://instagram.com">Instagram</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="https://facebook.com">Facebook</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="https://twitter.com">Twitter</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -55,13 +55,13 @@
                 <div id="carouselEnlaces" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="https://youtube.com"><img src="css/youtube3-logo-banner.jpg" class="d-block w-100" alt="..."></a>
+                            <a target="_blank" target="_blank"href="https://youtube.com"><img src="css/youtube3-logo-banner.jpg" class="d-block w-100" alt="..."></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="https://spotify.com"><img src="css/spotify.jpg" class="d-block w-100" alt="..."></a>
+                            <a target="_blank" href="https://spotify.com"><img src="css/spotify.jpg" class="d-block w-100" alt="..."></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="https://soundcloud.com"><img src="css/soundcloud2-3384018_1280.png" class="d-block w-100" alt="..."></a>
+                            <a target="_blank" href="https://soundcloud.com"><img src="css/soundcloud2-3384018_1280.png" class="d-block w-100" alt="..."></a>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselEnlaces" data-bs-slide="prev">
@@ -78,44 +78,13 @@
     </main>
     <section>
         <div class="container my-4">
-                        <div class="row d-flex justify-content-evenly">
-                <div class="col-lg-8 my-1 p-0">
-                    <table class="table table-primary">
-                        <thead>
-                            <tr>
-                                <th scope="col">Nombre</th>
-                                <th scope="col">Autor</th>
-                                <th scope="col">Genero</th>
-                                <th scope="col">Escuchálo ahora</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">The time of the world</th>
-                                <td>Colo</td>
-                                <td>Space Rock</td>
-                                <td><a href="">Click acá</a></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Another time of the wall</th>
-                                <td>Pink Floyd</td>
-                                <td>Rock Psicodélico</td>
-                                <td><a href="">Click acá</a></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Revolution rock</th>
-                                <td>The Clash</td>
-                                <td>Reggae</td>
-                                <td><a href="">Click acá</a></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Un calamar en mi habitación <span class="badge bg-secondary">Nuevo</span></th>
-                                <td>Colo</td>
-                                <td>Hard Rock</td>
-                                <td><a href="">Click acá</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="row d-flex justify-content-evenly">
+                <div class="col-lg-8 my-1 p-0 widget_soundcloud">
+                    <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/644620020&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                        <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                        <a href="https://soundcloud.com/user196356918" title="user196356918" target="_blank" style="color: #cccccc; text-decoration: none;">Lista de ejemplo</a> -
+                        <a href="https://soundcloud.com/user196356918/sets/king-crimson" title="king crimson" target="_blank" style="color: #cccccc; text-decoration: none;">King Crimson</a>
+                    </div>
                 </div>
                 <div class="col-lg-3 my-1 p-0">
                     <div class="card rounded" style="width: 100;">
@@ -123,7 +92,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Apoyáme en Patreon</h5>
                             <p class="card-text">Podés apoyarme economicamente en esta plataforma para mantener la página y seguir sacando temas.</p>
-                            <a href="https://patreon.com" class="btn btn-primary">Click acá</a>
+                            <a target="_blank" href="https://patreon.com" class="btn btn-primary">Click acá</a>
                         </div>
                     </div>
                 </div>

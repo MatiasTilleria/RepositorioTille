@@ -1,14 +1,26 @@
-a {
+body {
+  height: 100vh;
+}
+
+body a {
   text-decoration: none;
 }
 
-h5, .main__titulo, .main__equipamiento__titulo .main__equipamiento__texto__parrafo .main__equipamiento__texto__titulo {
+body h5, body .main__titulo, body .main__equipamiento__titulo .main__equipamiento__texto__parrafo .main__equipamiento__texto__titulo, .main__equipamiento__titulo .main__equipamiento__texto__parrafo body .main__equipamiento__texto__titulo {
   padding: 1% 1% 0% 1%;
+}
+
+body h1 {
+  margin: 0% 2% 0% 1%;
+  padding-bottom: 0.5%;
 }
 
 @media (max-width: 991.98px) {
   .card {
     margin: 20%;
+  }
+  .widget_soundcloud {
+    height: 400px;
   }
 }
 
@@ -16,6 +28,6 @@ h5, .main__titulo, .main__equipamiento__titulo .main__equipamiento__texto__parra
   margin-bottom: 1%;
 }
 
-.main__equipamiento__texto__parrafo .main__equipamiento__texto__titulo {
+.main__equipamiento__titulo .main__equipamiento__texto__parrafo .main__equipamiento__texto__titulo {
   margin-left: 1%;
 }
