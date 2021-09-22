@@ -15,6 +15,11 @@ body h1 {
   padding-bottom: 0.5%;
 }
 
+body h6 {
+  margin: 1%;
+  padding-top: 1%;
+}
+
 @media (max-width: 991.98px) {
   .card {
     margin: 20%;
